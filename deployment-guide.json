@@ -1,0 +1,1 @@
+{"name":"sakura-btc","scripts":{"build":"next build","start":"next start","deploy":"vercel --prod"},"dependencies":{},"framework":"nextjs"}
