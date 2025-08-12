@@ -55,7 +55,7 @@ export default function Home() {
             <div className="w-8 h-8 bg-gradient-to-r from-red-500 to-pink-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">桜</span>
             </div>
-            <h1 className="text-2xl font-bold text-white">Sakura BTC</h1>
+            <h1 className="text-2xl font-bold text-white">Umikaze BTC</h1>
             <nav className="hidden md:flex space-x-6 ml-8">
               <Link href="/menu" className="text-zinc-300 hover:text-white transition-colors">
                 Meni
@@ -94,7 +94,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="text-zinc-300 text-lg mb-6">
-                Doživite najboljšo japonsko kuhinjo v srcu Slovenije
+                Doživite najboljšo japonsko kuhinjo v srcu Slovenije!
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link href="/menu">
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Sakura BTC */}
+      {/* About Umikaze BTC */}
       <section className="py-16 bg-zinc-900/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -121,10 +121,10 @@ export default function Home() {
               O nas
             </Badge>
             <h3 className="text-3xl font-bold text-white mb-4">
-              Dobrodošli v Sakura BTC
+              Dobrodošli v Umikaze BTC
             </h3>
             <p className="text-zinc-400 max-w-3xl mx-auto text-lg leading-relaxed">
-              Kjer se tradicionalna japonska kuhinja sreča s sodobno priročnostjo. "Sakura" predstavlja lepoto češnjevih cvetov in japonsko dediščino. Doživite avtentične japonske okuse izpod rok pravih japonskih kulinaričnih mojstrov.
+              Kjer se tradicionalna japonska kuhinja sreča s sodobno priročnostjo. "Umikaze" predstavlja lepoto češnjevih cvetov in japonsko dediščino. Doživite avtentične japonske okuse izpod rok pravih japonskih kulinaričnih mojstrov.
             </p>
           </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
       <footer className="bg-zinc-950 border-t border-zinc-800 py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-zinc-400">
-            © 2025 Sakura BTC. Prinašamo avtentične japonske okuse v Slovenijo.
+            © 2025 Umikaze BTC. Prinašamo avtentične japonske okuse v Slovenijo.
           </p>
         </div>
       </footer>
