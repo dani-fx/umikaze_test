@@ -67,10 +67,12 @@ export default function Home() {
           </div>
           <div className="flex items-center space-x-4">
             <Link href="/reservations">
-              <!-- <Button variant="outline" size="sm" className="border-zinc-700 text-zinc-300 hover:bg-zinc-800">
+              <!-- 
+              <Button variant="outline" size="sm" className="border-zinc-700 text-zinc-300 hover:bg-zinc-800">
                 <Calendar className="w-4 h-4 mr-2" />
                 Rezerviraj mizo
-              </Button> -->
+              </Button>
+              -->
             </Link>
           </div>
         </div>
@@ -102,10 +104,12 @@ export default function Home() {
                     Oglejte si meni
                   </Button>
                 </Link>
-                <Link href="/reservations">
+                <!--
+                  <Link href="/reservations">
                   <Button variant="outline" size="lg" className="border-zinc-600 text-zinc-300 hover:bg-zinc-800 w-full sm:w-auto">
                     Rezerviraj mizo
                   </Button>
+                -->
                 </Link>
               </div>
             </div>
