@@ -60,9 +60,10 @@ export default function Home() {
               <Link href="/menu" className="text-zinc-300 hover:text-white transition-colors">
                 Meni
               </Link>
-              <!-- <Link href="/reservations" className="text-zinc-300 hover:text-white transition-colors">
+              {/* <Link href="/reservations" className="text-zinc-300 hover:text-white transition-colors">
                 Rezervacije
-              </Link> -->
+              </Link>
+              */} 
             </nav>
           </div>
           <div className="flex items-center space-x-4">
