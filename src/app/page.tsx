@@ -63,18 +63,18 @@ export default function Home() {
               {/* <Link href="/reservations" className="text-zinc-300 hover:text-white transition-colors">
                 Rezervacije
               </Link>
-              */} 
+*/} 
             </nav>
           </div>
           <div className="flex items-center space-x-4">
-            <Link href="/reservations">
+            {/*<Link href="/reservations">
               <!-- 
               <Button variant="outline" size="sm" className="border-zinc-700 text-zinc-300 hover:bg-zinc-800">
                 <Calendar className="w-4 h-4 mr-2" />
                 Rezerviraj mizo
               </Button>
               -->
-            </Link>
+            </Link>*/} 
           </div>
         </div>
       </header>
