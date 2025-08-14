@@ -105,12 +105,12 @@ export default function Home() {
                     Oglejte si meni
                   </Button>
                 </Link>
-                <!--
+                {/*
                   <Link href="/reservations">
                   <Button variant="outline" size="lg" className="border-zinc-600 text-zinc-300 hover:bg-zinc-800 w-full sm:w-auto">
                     Rezerviraj mizo
                   </Button>
-                -->
+                */}
                 </Link>
               </div>
             </div>
@@ -251,7 +251,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mb-4">
                 <Phone className="w-8 h-8 text-white" />
               </div>
-              <h4 className="text-white font-semibold mb-2">Rezervacije</h4>
+              {/*<h4 className="text-white font-semibold mb-2">Rezervacije</h4>*/}
               <p className="text-zinc-400">+386 1 234 5678</p>
             </div>
           </div>
