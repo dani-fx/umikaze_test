@@ -62,8 +62,7 @@ export default function Home() {
               </Link>
               {/* <Link href="/reservations" className="text-zinc-300 hover:text-white transition-colors">
                 Rezervacije
-              </Link>
-*/} 
+              </Link>*/} 
             </nav>
           </div>
           {/*<div className="flex items-center space-x-4">
@@ -105,8 +104,7 @@ export default function Home() {
                     Oglejte si meni
                   </Button>
                 </Link>
-                {/*
-                  <Link href="/reservations">
+                {/*<Link href="/reservations">
                   <Button variant="outline" size="lg" className="border-zinc-600 text-zinc-300 hover:bg-zinc-800 w-full sm:w-auto">
                     Rezerviraj mizo
                   </Button>
