@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sakura BTC - Avtentična japonska restavracija v Sloveniji",
-  description: "Doživite avtentično japonsko kuhinjo v Sakura BTC. Rezervirajte mizo za okusne sushi, ramen in tradicionalne jedi v Ljubljani, Slovenija.",
+  title: "Umikaze BTC - Avtentična japonska restavracija v Sloveniji",
+  description: "Doživite avtentično japonsko kuhinjo v Umikaze BTC. Rezervirajte mizo za okusne sushi, ramen in tradicionalne jedi v Ljubljani, Slovenija.",
 };
 
 export default function RootLayout({
