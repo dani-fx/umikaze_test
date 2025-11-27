@@ -83,7 +83,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/80 to-transparent z-10" />
         <img
           src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&h=400&fit=crop"
-          alt="Japanese cuisine"
+          alt="Japonska kuhinja"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 z-20 flex items-center">
