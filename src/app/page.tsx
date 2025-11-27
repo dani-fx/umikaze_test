@@ -99,7 +99,7 @@ export default function Home() {
           </span>
         </h2>
 
-       <p className="text-zinc-300 text-lg mb-6 bg-black/50 px-3 py-1 rounded">
+       <p className="text-zinc-300 text-lg mb-6 bg-black/70 px-3 py-1 rounded">
           Doživite najboljšo japonsko kuhinjo v srcu Slovenije!
       </p>
 
