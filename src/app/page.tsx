@@ -99,9 +99,9 @@ export default function Home() {
           </span>
         </h2>
 
-        <p className="text-zinc-300 text-lg mb-6">
+       <p className="text-zinc-300 text-lg mb-6 bg-black/50 px-3 py-1 rounded">
           Doživite najboljšo japonsko kuhinjo v srcu Slovenije!
-        </p>
+      </p>
 
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Link href="/menu">
