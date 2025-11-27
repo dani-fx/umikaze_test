@@ -89,7 +89,7 @@ export default function Home() {
         <div className="absolute inset-0 z-20 flex items-center">
           <div className="container mx-auto px-4">
             <div className="max-w-lg">
-              <h2 className="text-align_center text-5xl font-bold text-white mb-4 leading-tight">
+              <h2 className="text-align:center text-5xl font-bold text-white mb-4 leading-tight">
                 Avtentični japonski<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-400">
                   okusi
