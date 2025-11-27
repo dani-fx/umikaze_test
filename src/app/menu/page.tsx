@@ -236,17 +236,17 @@ export default function MenuPage() {
                 {item.popular && (
                   <Badge className="absolute top-4 left-4 z-10 bg-red-600 hover:bg-red-700">
                     <Star className="w-3 h-3 mr-1" />
-                    Popular
+                    Najbolj prodajano!
                   </Badge>
                 )}
                 {item.spicy && (
                   <Badge className="absolute top-4 right-4 z-10 bg-orange-600 hover:bg-orange-700">
-                    🌶️ Spicy
+                    🌶️ Pikantno
                   </Badge>
                 )}
                 {item.vegetarian && (
                   <Badge className="absolute top-4 right-4 z-10 bg-green-600 hover:bg-green-700">
-                    🥬 Vegetarian
+                    🥬 Vegeterijansko
                   </Badge>
                 )}
                 <img
