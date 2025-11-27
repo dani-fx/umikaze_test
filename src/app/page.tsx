@@ -80,40 +80,42 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/80 to-transparent z-10" />
-        <img
-          src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&h=400&fit=crop"
-          alt="Japonska kuhinja"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="container mx-auto px-4">
-            <div className="text-center max-w-lg">
-              <h2 className="text-center text-5xl font-bold text-white mb-4 leading-tight">
-                Avtentični japonski<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-400">
-                  okusi
-                </span>
-              </h2>
-              <p className="text-zinc-300 text-lg mb-6">
-                Doživite najboljšo japonsko kuhinjo v srcu Slovenije!
-              </p>
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <Link href="/menu">
-                  <Button size="lg" className="bg-red-600 hover:bg-red-700 w-full sm:w-auto">
-                    Oglejte si meni
-                  </Button>
-                </Link>
-                {/*<Link href="/reservations">
-                  <Button variant="outline" size="lg" className="border-zinc-600 text-zinc-300 hover:bg-zinc-800 w-full sm:w-auto">
-                    Rezerviraj mizo
-                  </Button>
-                </Link>*/}
-              </div>
-            </div>
-          </div>
+  <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/80 to-transparent z-10" />
+
+  <img
+    src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&h=400&fit=crop"
+    alt="Japonska kuhinja"
+    className="w-full h-full object-cover"
+  />
+
+  <div className="absolute inset-0 z-20 flex items-center justify-center">
+    <div className="container mx-auto px-4">
+      <div className="text-center max-w-lg mx-auto">
+        
+        <h2 className="text-center text-5xl font-bold text-white mb-4 leading-tight">
+          Avtentični japonski<br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-400">
+            okusi
+          </span>
+        </h2>
+
+        <p className="text-zinc-300 text-lg mb-6">
+          Doživite najboljšo japonsko kuhinjo v srcu Slovenije!
+        </p>
+
+        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <Link href="/menu">
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 w-full sm:w-auto">
+              Oglejte si meni
+            </Button>
+          </Link>
         </div>
-      </section>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* About Umikaze BTC */}
       <section className="py-16 bg-zinc-900/50">
