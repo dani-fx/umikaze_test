@@ -24,7 +24,7 @@ const menuItems: MenuItem[] = [
   {
     id: 1,
     name: "Salmon Nigiri",
-    description: "Fresh Norwegian salmon over seasoned sushi rice",
+    description: "Svež norveški losos na začinjenem sushi rižu",
     price: 3.50,
     image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=600&h=400&fit=crop&crop=center",
     category: "sushi",
@@ -33,7 +33,7 @@ const menuItems: MenuItem[] = [
   {
     id: 2,
     name: "Tuna Sashimi",
-    description: "Premium bluefin tuna, thinly sliced",
+    description: "Premium modroplavuti tuna, tanko narezana",
     price: 8.90,
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
     category: "sushi"
@@ -41,7 +41,7 @@ const menuItems: MenuItem[] = [
   {
     id: 3,
     name: "Dragon Roll",
-    description: "Eel, cucumber, avocado with eel sauce",
+    description: "Jegulja, kumara in avokado z omako iz jegulje",
     price: 12.50,
     image: "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=600&h=400&fit=crop&crop=center",
     category: "sushi",
@@ -50,7 +50,7 @@ const menuItems: MenuItem[] = [
   {
     id: 4,
     name: "Rainbow Roll",
-    description: "California roll topped with assorted fish",
+    description: "California roll obložen z različnimi vrstami rib",
     price: 14.90,
     image: "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&h=400&fit=crop&crop=center",
     category: "sushi"
@@ -60,7 +60,7 @@ const menuItems: MenuItem[] = [
   {
     id: 5,
     name: "Tonkotsu Ramen",
-    description: "Rich pork bone broth with chashu, egg, and scallions",
+    description: "Bogata juha iz svinjske kosti s chashujem, jajcem in mladimi čebulicami",
     price: 13.90,
     image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=600&h=400&fit=crop&crop=center",
     category: "ramen",
@@ -69,7 +69,7 @@ const menuItems: MenuItem[] = [
   {
     id: 6,
     name: "Spicy Miso Ramen",
-    description: "Miso broth with ground pork and chili oil",
+    description: "Miso juha z mletim svinjskim mesom in čilijevim oljem",
     price: 12.90,
     image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&h=400&fit=crop&crop=center",
     category: "ramen",
@@ -78,7 +78,7 @@ const menuItems: MenuItem[] = [
   {
     id: 7,
     name: "Chicken Teriyaki Udon",
-    description: "Thick udon noodles with teriyaki glazed chicken",
+    description: "Debele udon rezance s piščancem v teriyaki glazuri",
     price: 11.50,
     image: "https://images.unsplash.com/photo-1618841557871-b4664fbf0cb3?w=600&h=400&fit=crop&crop=center",
     category: "ramen"
@@ -88,7 +88,7 @@ const menuItems: MenuItem[] = [
   {
     id: 8,
     name: "Gyoza (6 pieces)",
-    description: "Pan-fried pork dumplings with dipping sauce",
+    description: "Praženi cmoki s svinjskim mesom in pomakalno omako",
     price: 7.50,
     image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&h=400&fit=crop&crop=center",
     category: "appetizers",
@@ -97,7 +97,7 @@ const menuItems: MenuItem[] = [
   {
     id: 9,
     name: "Edamame",
-    description: "Steamed young soybeans with sea salt",
+    description: "Kuhani mladi sojini stroki s soljo",
     price: 4.90,
     image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600&h=400&fit=crop&crop=center",
     category: "appetizers",
@@ -106,7 +106,7 @@ const menuItems: MenuItem[] = [
   {
     id: 10,
     name: "Chicken Karaage",
-    description: "Japanese fried chicken with spicy mayo",
+    description: "Japonski ocvrti piščanec s pikantno majonezo",
     price: 8.90,
     image: "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=600&h=400&fit=crop&crop=center",
     category: "appetizers"
@@ -114,7 +114,7 @@ const menuItems: MenuItem[] = [
   {
     id: 11,
     name: "Tempura Vegetables",
-    description: "Lightly battered and fried seasonal vegetables",
+    description: "Rahlo ocvrta sezonska zelenjava v tempuri",
     price: 9.50,
     image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center",
     category: "appetizers",
@@ -125,7 +125,7 @@ const menuItems: MenuItem[] = [
   {
     id: 12,
     name: "Beef Teriyaki",
-    description: "Grilled beef with teriyaki glaze, steamed rice",
+    description: "Pečena govedina v teriyaki omaki s kuhanim rižem",
     price: 16.90,
     image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&h=400&fit=crop&crop=center",
     category: "hot",
@@ -134,7 +134,7 @@ const menuItems: MenuItem[] = [
   {
     id: 13,
     name: "Chicken Katsu",
-    description: "Breaded chicken cutlet with tonkatsu sauce",
+    description: "Paniran piščančji zrezek s tonkatsu omako",
     price: 14.50,
     image: "https://images.unsplash.com/photo-1607301405390-d831c242514d?w=600&h=400&fit=crop&crop=center",
     category: "hot"
@@ -142,7 +142,7 @@ const menuItems: MenuItem[] = [
   {
     id: 14,
     name: "Salmon Teriyaki",
-    description: "Grilled salmon with teriyaki sauce and vegetables",
+    description: "Pečen losos v teriyaki omaki z zelenjavo",
     price: 17.50,
     image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=400&fit=crop&crop=center",
     category: "hot"
@@ -152,7 +152,7 @@ const menuItems: MenuItem[] = [
   {
     id: 15,
     name: "Mochi Ice Cream",
-    description: "Traditional rice cake with ice cream filling",
+    description: "Tradicionalno riževo pecivo s sladolednim nadevom",
     price: 6.50,
     image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=400&fit=crop&crop=center",
     category: "desserts"
@@ -160,12 +160,13 @@ const menuItems: MenuItem[] = [
   {
     id: 16,
     name: "Dorayaki",
-    description: "Pancake sandwich with sweet red bean filling",
+    description: "Palačinki z nadevom iz sladkega fižola azuki",
     price: 5.90,
     image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center",
     category: "desserts"
   }
 ]
+
 
 const categories = [
   { id: "all", name: "Vse jedi", icon: "🍱" },
