@@ -86,7 +86,7 @@ export default function Home() {
           alt="Japonska kuhinja"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 z-20 flex items-center">
+        <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-lg">
               <h2 className="text-center text-5xl font-bold text-white mb-4 leading-tight">
