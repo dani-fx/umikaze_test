@@ -1,4 +1,4 @@
-use client
+"use client"
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
@@ -167,6 +167,7 @@ const menuItems: MenuItem[] = [
   }
 ]
 
+
 const categories = [
   { id: "all", name: "Vse jedi", icon: "🍱" },
   { id: "sushi", name: "Sushi & Sashimi", icon: "🍣" },
@@ -198,7 +199,7 @@ export default function MenuPage() {
             <h1 className="text-2xl font-bold text-white">Sakura BTC Meni</h1>
           </div>
           <Link href="/reservations">
-            <Button variant="outline" size="sm" className="border-zinc-700 text-zinc-300 hover:bg-zinc-800" disabled>
+            <Button variant="outline" size="sm" className="border-zinc-700 text-zinc-300 hover:bg-zinc-800">
               <Calendar className="w-4 h-4 mr-2" />
               Rezerviraj mizo
             </Button>
@@ -253,7 +254,7 @@ export default function MenuPage() {
                   alt={item.name}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 to-transparent"/>
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/80 to-transparent" />
               </div>
 
               <CardHeader>
@@ -278,7 +279,7 @@ export default function MenuPage() {
                     Za naročilo pokličite: <span className="text-red-400 font-medium">+386 1 234 5678</span>
                   </p>
                   <Link href="/reservations">
-                    <Button className="w-full bg-red-600 hover:bg-red-700" disabled>
+                    <Button className="w-full bg-red-600 hover:bg-red-700">
                       Rezerviraj mizo
                     </Button>
                   </Link>
@@ -287,6 +288,7 @@ export default function MenuPage() {
             </Card>
           ))}
         </div>
+
 
       </div>
     </div>
